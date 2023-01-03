@@ -1,0 +1,23 @@
+
+Results for the tinyArray
+insert 16.625 μs
+append 43.875 μs
+
+Results for the smallArray
+insert 21.625 μs
+append 50.584 μs
+
+Results for the mediumArray
+insert 125.875 μs
+append 76.958 μs
+
+Results for the largeArray
+insert 5.801459 ms
+append 354.084 μs
+
+Results for the extraLargeArray
+insert 708.295416 ms
+append 1.835208 ms
+
+4. The insert function is more effcient when the number input is smaller than mediumArray size, comparing to append function. Hence, the append function scale better. I noticed the pattern by comparing the time used for "insert" and "append" function.
+
